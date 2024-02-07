@@ -1,0 +1,15 @@
+@mixin btn_hover {
+	&:hover {
+		background-image: none;
+		background-color: $pr_color_4;
+	}
+	
+}
+
+@mixin link_hover {
+	&:hover {
+		cursor: pointer;
+		color: #2cbcd8;
+	}
+	
+}
